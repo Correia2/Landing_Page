@@ -18,13 +18,45 @@ header{
     align-items: center;
 }
 
-.header-links {
+.header-links{
     display: flex;
     gap: 1em;
 }
 
-a:link {
+a:link{
     font-size: 12px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+a:visited{
+    font-size: 12px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.FrontPage{
+    background-color: #1f2937;
+    padding: 1em 13em;
+    display: flex;
+    color: #E5E7EB;
+    gap: 1em;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+#signup-link {
+    background-color: rgb(5, 119, 172);
+    font-size: 16px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+    width: 60px;
+    height: 20px;
 }

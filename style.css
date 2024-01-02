@@ -104,5 +104,29 @@ a:visited{
     font-style: bold;
     font-size: 2em;
     padding: 0.2em 3em 1em 3em;
-    text-align: right; 
+    text-align: right;
+}
+
+.sign-up{
+    display: flex;
+    background-color: #3882F6;
+    padding: 2em;
+    margin: 5em 10em;
+    border-radius: 20px;
+    justify-content: space-around;
+    color:white;
+}
+
+.signup-text{
+    justify-content: middle;
+    align-items: center;
+
+}
+
+.signup-button{
+    font-size: 16px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-align: center;
 }
